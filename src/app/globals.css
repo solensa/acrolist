@@ -17,9 +17,10 @@
 } */
 
 body {
+  font-family: "f37 ginger", "century gothic", helvetica, sans-serif !important;
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
-    rgb(var(--background-start-rgb));
+  /* background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
+    rgb(var(--background-start-rgb)); */
 }
 .lor-grey {
   background-color: #2d2d2d;
