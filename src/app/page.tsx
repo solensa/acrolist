@@ -5,14 +5,14 @@ const users = [
   {
     abb: "A&F",
     exp: "Architecture & Facades",
-    desc: "A discipline within the Technical function who’s focus is the technical aspects of the architecture, internal fit out, and building envelope elements of a project.",
+    desc: "A discipline within the Technical function who&apos;s focus is the technical aspects of the architecture, internal fit out, and building envelope elements of a project.",
     id: 1,
   },
   { abb: "AAFR", exp: "All accident frequency ratio", desc: "", id: 2 },
   {
     abb: "Accruals",
     exp: "",
-    desc: "Liabilities to pay for goods or services that have been received or supplied but are not yet paid for or invoiced. The costs have been incurred but not yet paid for and are not recorded in the job cost ledger i.e. do not appear as a cost transaction in job cost ledgers. There are two types of Accruals: 1. Manual Accrual – is a cost incurred where a GRN/delivery docket has not been processed into the system. Subcontract Accruals are a type of manual accruals. This is when work is performed by Subcontractors and not processed via a PPC or RCTI in COINS 2. COINS system accruals (GRN’s) – show on some job cost reports and reflect GRN’s/delivery received and processed in COINS but not yet invoiced For Subcontractors, the accrual is the calculated difference between the reported S/C liability and the gross certified.",
+    desc: "Liabilities to pay for goods or services that have been received or supplied but are not yet paid for or invoiced. The costs have been incurred but not yet paid for and are not recorded in the job cost ledger i.e. do not appear as a cost transaction in job cost ledgers. There are two types of Accruals: 1. Manual Accrual, is a cost incurred where a GRN/delivery docket has not been processed into the system. Subcontract Accruals are a type of manual accruals. This is when work is performed by Subcontractors and not processed via a PPC or RCTI in COINS 2. COINS system accruals (GRN&apos;s) – show on some job cost reports and reflect GRN&apos;s/delivery received and processed in COINS but not yet invoiced For Subcontractors, the accrual is the calculated difference between the reported S/C liability and the gross certified.",
     id: 3,
   },
   { abb: "SME", exp: "Small Medium Enterprise", desc: "", id: 4 },
