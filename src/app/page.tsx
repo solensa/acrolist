@@ -41,7 +41,7 @@ export default function Home() {
   const [showNav, setShowNav] = useState(false);
   const [showList, setShowList] = useState(false);
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const searchTerm = e.target.value;
     setSearchItem(searchTerm);
     const filteredItems = users.filter(
