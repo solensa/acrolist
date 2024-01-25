@@ -116,7 +116,7 @@ export default function Home() {
             </li>
           ))}
           <li className="box-content  p-4 mt-5 rounded-lg li-red  ">
-            <div className="strong">Can't find what you're looking for?</div>
+            <div className="strong">Can&apos;t find what you&apos;re looking for?</div>
 
             <div className="mt-2">
               Ask on Yammer here. When you find out, please add it here (need to add a button here)
