@@ -235,7 +235,7 @@ export default function Home() {
           onChange={handleInputChange}
           placeholder="Search for acronym or jargon..."
         />
-        <ul className={(showList ? "block " : "hidden ") + "w-11/12 md:w-3/5"}>
+        <ul className={"w-11/12 md:w-3/5"}>
           {filteredUsers.map((user) => (
             <li key={user.id} className="box-content  p-4 mt-2 rounded-lg li-blue  ">
               <div className="strong">{user.abb}</div>
