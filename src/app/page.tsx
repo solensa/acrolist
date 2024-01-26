@@ -96,7 +96,7 @@ export default function Home() {
       <main className="white-bg flex min-h-screen flex-col items-center  md:p-24">
         <img
           ref={imageRef}
-          className="acrolistTitle m-20 mb-0"
+          className="acrolistTitle w-7/12 md:w-4/12 m-20 mb-0"
           src={"/acrolist.svg"}
           alt="acrolist"
         />
