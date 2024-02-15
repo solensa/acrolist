@@ -177,6 +177,7 @@ export default function Home() {
         user.abb.toLowerCase().includes(searchTerm.toLowerCase()) ||
         user.exp.toLowerCase().includes(searchTerm.toLowerCase())
     );
+
     // if there is no search term, hide the list
     if (searchTerm === "") {
       setShowList(false);
@@ -235,7 +236,7 @@ export default function Home() {
           onChange={handleInputChange}
           placeholder="Search for acronym or jargon..."
         />
-        <ul className={"w-11/12 md:w-3/5"}>
+        <ul className={(showList ? "block " : "hidden ") + "w-11/12 md:w-3/5"}>
           {filteredUsers.map((user) => (
             <li key={user.id} className="box-content  p-4 mt-2 rounded-lg li-blue  ">
               <div className="strong">{user.abb}</div>
