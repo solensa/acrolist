@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState, useRef } from "react";
 const users = [
   {
@@ -248,20 +249,22 @@ export default function Home() {
             <div className="strong">Can&apos;t find what you&apos;re looking for?</div>
 
             <div className="mt-2">
-              <a
+              <Link
+                className="link"
                 href="https://web.yammer.com/main/org/laingorourke.com.au/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI2MjgzODQzOTkzNiJ9/all"
                 target="_blank"
               >
                 Ask on Yammer here
-              </a>
-              . When you find out,
-              <a
+              </Link>
+              . When you find out,&nbsp;
+              <Link
+                className="link"
                 href="https://laingorourke-my.sharepoint.com/:l:/p/rclaridge/FMZ22bOgMxZLoaXSDBItALYBQtqO_EW2vHrobPXDcQzlQw?e=TTbKeZ"
                 target="_blank"
               >
                 please add it here
-              </a>
-              so that it may appear in this tool for others to benefit from!
+              </Link>
+              &nbsp;so that it may appear in this tool for others to benefit from!
             </div>
           </li>
         </ul>

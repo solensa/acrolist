@@ -51,6 +51,11 @@ body {
 .italics {
   font-style: italic;
 }
+.link {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
