@@ -254,13 +254,13 @@ export default function Home() {
               >
                 Ask on Yammer here
               </a>
-              . When you find out,{" "}
+              . When you find out,
               <a
                 href="https://laingorourke-my.sharepoint.com/:l:/p/rclaridge/FMZ22bOgMxZLoaXSDBItALYBQtqO_EW2vHrobPXDcQzlQw?e=TTbKeZ"
                 target="_blank"
               >
                 please add it here
-              </a>{" "}
+              </a>
               so that it may appear in this tool for others to benefit from!
             </div>
           </li>
