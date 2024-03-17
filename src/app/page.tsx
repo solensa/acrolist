@@ -248,7 +248,20 @@ export default function Home() {
             <div className="strong">Can&apos;t find what you&apos;re looking for?</div>
 
             <div className="mt-2">
-              Ask on Yammer here. When you find out, please add it here (need to add a button here)
+              <a
+                href="https://web.yammer.com/main/org/laingorourke.com.au/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI2MjgzODQzOTkzNiJ9/all"
+                target="_blank"
+              >
+                Ask on Yammer here
+              </a>
+              . When you find out,{" "}
+              <a
+                href="https://laingorourke-my.sharepoint.com/:l:/p/rclaridge/FMZ22bOgMxZLoaXSDBItALYBQtqO_EW2vHrobPXDcQzlQw?e=TTbKeZ"
+                target="_blank"
+              >
+                please add it here
+              </a>{" "}
+              so that it may appear in this tool for others to benefit from!
             </div>
           </li>
         </ul>
