@@ -189,10 +189,9 @@ export default function Home() {
   };
   return (
     <>
-      <nav className="lor-grey flex items-center justify-between flex-wrap p-3">
+      {/* <nav className="lor-grey flex items-center justify-between flex-wrap p-3">
         <div className="flex items-center flex-shrink-0 text-white mr-6">
           <img ref={imageRef} className="fill-current h-8  mr-2" src={"/lor.png"} alt="lor" />
-          {/* <span className="font-semibold text-xl tracking-tight">LOR Learn</span> */}
         </div>
         <div className="block">
           <button
@@ -222,8 +221,8 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </nav>
-      <main className="white-bg flex min-h-screen flex-col items-center  md:p-24">
+      </nav> */}
+      <main className="white-bg flex min-h-screen flex-col lor-border-red p-[30px]">
         <img
           ref={imageRef}
           className="acrolistTitle w-7/12 md:w-4/12 m-20 mb-0"
