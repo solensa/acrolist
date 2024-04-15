@@ -229,13 +229,18 @@ export default function Home() {
           src={"/acrolist.svg"}
           alt="acrolist"
         /> */}
-        <input
-          className="w-11/12 md:w-3/5 h-12 p-4 rounded-lg mb-3 sb-grey"
-          type="text"
-          value={searchItem}
-          onChange={handleInputChange}
-          placeholder="Search for acronym or jargon..."
-        />
+        <div className="flex flex-row mb-12">
+          <input
+            className="w-9/12 md:w-5/12 h-12 p-4 rounded-l sb-grey"
+            type="text"
+            value={searchItem}
+            onChange={handleInputChange}
+            placeholder="Search for acronyms or jargon..."
+          />
+          <button className="w-3/12 md:w-24 h-12 p-2 rounded-r lor-yellow strong inline-block align-middle">
+            Search
+          </button>
+        </div>
         <ul className={(showList ? "block " : "hidden ") + "w-11/12 md:w-3/5"}>
           {filteredUsers.map((user) => (
             <li key={user.id} className="box-content  p-4 mb-3 rounded-lg li-blue  ">
