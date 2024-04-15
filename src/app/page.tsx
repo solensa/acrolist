@@ -12,13 +12,13 @@ const users = [
   {
     abb: "",
     exp: "Asite",
-    desc: "Laing O&apos;Rourke&apos;s (LOR) chosen Business-to-Business (B2B) technology partner, providing LOR with the software to manage processes throughout our business: collaboration, tendering and contract management. The tool promotes more efficient interaction and better communication between companies, enabling access to current, accurate and consistent data and providing decision-makers with better visibility and control.     ",
+    desc: "Laing O&#39;Rourke&#39;s (LOR) chosen Business-to-Business (B2B) technology partner, providing LOR with the software to manage processes throughout our business: collaboration, tendering and contract management. The tool promotes more efficient interaction and better communication between companies, enabling access to current, accurate and consistent data and providing decision-makers with better visibility and control.     ",
     id: "2",
   },
   {
     abb: "BIM",
     exp: "Building Information Modelling",
-    desc: "Industry acronym that stands for &apos;Building Information Modelling.&apos; The construction industry has, for years used computer aided design to show people what a project will look like. Advances in digital technology means that we can now ask computer models to layer detailed information around cost, programme, specifications, carbon and lifecycle information onto the more conventional, digital illustration of a project. Because computer compatibility is improving, the BIM model can pull information provided by Laing O&apos;Rourke, the client, consultants and sub-contractors into one place. A project now has the ability, through BIM to make assumptions and changes, the consequences of which are played out on screen. It means that we can engineer a project from an earlier stage, providing better cost certainty before we get to site. The clearer visual representation helps us to explain a project to clients, end users or members of the public much more easily which in turn helps with quicker decision making and broader understanding.     ",
+    desc: "Industry acronym that stands for &#39;Building Information Modelling.&#39; The construction industry has, for years used computer aided design to show people what a project will look like. Advances in digital technology means that we can now ask computer models to layer detailed information around cost, programme, specifications, carbon and lifecycle information onto the more conventional, digital illustration of a project. Because computer compatibility is improving, the BIM model can pull information provided by Laing O&#39;Rourke, the client, consultants and sub-contractors into one place. A project now has the ability, through BIM to make assumptions and changes, the consequences of which are played out on screen. It means that we can engineer a project from an earlier stage, providing better cost certainty before we get to site. The clearer visual representation helps us to explain a project to clients, end users or members of the public much more easily which in turn helps with quicker decision making and broader understanding.     ",
     id: "3",
   },
   { abb: "BU", exp: "Business Unit ", desc: "", id: "4" },
@@ -32,7 +32,7 @@ const users = [
   {
     abb: "CHT",
     exp: "Crown House Technologies",
-    desc: "Crown House Technologies; Laing O&apos;Rourke&apos;s Mechanical and Electrical Engineering Business ",
+    desc: "Crown House Technologies; Laing O&#39;Rourke&#39;s Mechanical and Electrical Engineering Business ",
     id: "7",
   },
   { abb: "CIPS", exp: "Chartered Institute of Purchasing & Supply ", desc: "", id: "8" },
@@ -51,32 +51,32 @@ const users = [
   {
     abb: "DfMA /  70/60/30",
     exp: "Design for Manufacture & Assembly",
-    desc: "Laing O&apos;Rourke acronym that stands for &apos;Design for Manufacture & Assembly&apos; an approach or ethos that we believe will fundamentally challenge and change the construction industry. Our DfMA approach is founded on the understanding that we must challenge and change conventional approaches within our industry, delivering projects in a more efficient, predictable, smarter, and safer way and providing affordable outcomes. To do this we have to work with our clients at an earlier design stage, bringing our engineering expertise to provide solutions that deliver a project faster and to a quality previously not expected within the industry. Conventional approaches depend upon on-site construction. A DfMA ethos challenges that approach and suggests that we can design and manufacture major elements of a project in a more controlled environment, off-site e.g. at EIP or CHt Wolverhampton. These manufactured components are then assembled on-site.    ",
+    desc: "Laing O&#39;Rourke acronym that stands for &#39;Design for Manufacture & Assembly&#39; an approach or ethos that we believe will fundamentally challenge and change the construction industry. Our DfMA approach is founded on the understanding that we must challenge and change conventional approaches within our industry, delivering projects in a more efficient, predictable, smarter, and safer way and providing affordable outcomes. To do this we have to work with our clients at an earlier design stage, bringing our engineering expertise to provide solutions that deliver a project faster and to a quality previously not expected within the industry. Conventional approaches depend upon on-site construction. A DfMA ethos challenges that approach and suggests that we can design and manufacture major elements of a project in a more controlled environment, off-site e.g. at EIP or CHt Wolverhampton. These manufactured components are then assembled on-site.    ",
     id: "11",
   },
   {
     abb: "DIFR",
     exp: "Disabling Injury Frequency Rate",
-    desc: "a standard way in calculating the number of disabling injury&apos;s proportioned to the number of hours worked. A disabling injury is classed as a lost time accident (LTA), Calculated as follows:  DIFR = Number of LTA&apos;s x (100,000 / Total number of hours worked for all employees). ",
+    desc: "a standard way in calculating the number of disabling injury&#39;s proportioned to the number of hours worked. A disabling injury is classed as a lost time accident (LTA), Calculated as follows:  DIFR = Number of LTA&#39;s x (100,000 / Total number of hours worked for all employees). ",
     id: "12",
   },
   {
     abb: "EIP",
     exp: "Explore Industrial Park",
-    desc: "Laing O&apos;Rourke&apos;s manufacturing facility based in Steetley, Nottinghamshire. EIP, together with Bison and Crown House Technology&apos;s off-site facility make up our manufacturing capability, central to our DfMA ambitions ",
+    desc: "Laing O&#39;Rourke&#39;s manufacturing facility based in Steetley, Nottinghamshire. EIP, together with Bison and Crown House Technology&#39;s off-site facility make up our manufacturing capability, central to our DfMA ambitions ",
     id: "13",
   },
   { abb: "EngEx", exp: "Engineering Excellence Group ", desc: "", id: "14" },
   {
     abb: "",
     exp: "Engineering Enterprise",
-    desc: "Laing O&apos;Rourke wants to move away from being known as a &apos;main contractor&apos; – a company that is brought in to deliver, largely, already determined designs to company known globally for its excellence in engineering; an engineering enterprise. An engineering enterprise is involved in projects at a much earlier stage, influencing design decisions with innovative engineering ideas. This vision means that we work with world class partners in key industry sectors. We make sure that we are sitting at the “top table” with strategically important clients whilst managing our risk and making profit. Becoming an engineering enterprise is part of our 2020 Vision.     ",
+    desc: "Laing O&#39;Rourke wants to move away from being known as a &#39;main contractor&#39; – a company that is brought in to deliver, largely, already determined designs to company known globally for its excellence in engineering; an engineering enterprise. An engineering enterprise is involved in projects at a much earlier stage, influencing design decisions with innovative engineering ideas. This vision means that we work with world class partners in key industry sectors. We make sure that we are sitting at the “top table” with strategically important clients whilst managing our risk and making profit. Becoming an engineering enterprise is part of our 2020 Vision.     ",
     id: "15",
   },
   {
     abb: "",
     exp: "Excellence Plus",
-    desc: "The Laing O&apos;Rourke behavioural framework ",
+    desc: "The Laing O&#39;Rourke behavioural framework ",
     id: "16",
   },
   {
@@ -89,19 +89,19 @@ const users = [
   {
     abb: "",
     exp: "Gift Register",
-    desc: "We ensure all gifts and hospitality are within acceptable limits and never offer or accept anything that could be perceived as a bribe or an attempt to inappropriately influence a business decision.  All gifts and hospitality must be registered on the Gifts, Hospitality and Conflicts of Interest register – also known at the &apos;Gift Register&apos; ",
+    desc: "We ensure all gifts and hospitality are within acceptable limits and never offer or accept anything that could be perceived as a bribe or an attempt to inappropriately influence a business decision.  All gifts and hospitality must be registered on the Gifts, Hospitality and Conflicts of Interest register – also known at the &#39;Gift Register&#39; ",
     id: "19",
   },
   {
     abb: "",
     exp: "iGATE",
-    desc: "The company intranet site. News, views, videos, People, Support; Keeping you in touch with everything you need to know to get the most out of Laing O&apos;Rourke. ",
+    desc: "The company intranet site. News, views, videos, People, Support; Keeping you in touch with everything you need to know to get the most out of Laing O&#39;Rourke. ",
     id: "20",
   },
   {
     abb: "iGMS",
     exp: "Integrated Group Management System",
-    desc: "The place for all procedures, technical information, guidance, templates, checklists and learning documentation and e-learning to support projects on &apos;how we go to work.&apos;  An online resource to make our information more accessible and our organisation more efficient.",
+    desc: "The place for all procedures, technical information, guidance, templates, checklists and learning documentation and e-learning to support projects on &#39;how we go to work.&#39;  An online resource to make our information more accessible and our organisation more efficient.",
     id: "21",
   },
   {
@@ -113,7 +113,7 @@ const users = [
   {
     abb: "",
     exp: "Infoworks",
-    desc: "Infoworks is title under which Laing O&apos;Rourke publishes it stakeholder editorial content. Originally produced as a quarterly business review and update for employees, its outlook is now equally industry-focused and targets external, as well as internal, stakeholders as a brand building tool supporting work-winning. Offering insight into Laing O&apos;Rourke&apos;s global engineering enterprise, it also offers thought-leadership pieces from in-house and wider industry experts. Contributors range from project teams, to clients, to leading journalists ",
+    desc: "Infoworks is title under which Laing O&#39;Rourke publishes it stakeholder editorial content. Originally produced as a quarterly business review and update for employees, its outlook is now equally industry-focused and targets external, as well as internal, stakeholders as a brand building tool supporting work-winning. Offering insight into Laing O&#39;Rourke&#39;s global engineering enterprise, it also offers thought-leadership pieces from in-house and wider industry experts. Contributors range from project teams, to clients, to leading journalists ",
     id: "23",
   },
   {
@@ -157,7 +157,7 @@ const users = [
   {
     abb: "",
     exp: "Vetter",
-    desc: "Vetter UK is the specialist stone contractor within the Laing O&apos;Rourke Group and one of the leading companies within the UK stone industry ",
+    desc: "Vetter UK is the specialist stone contractor within the Laing O&#39;Rourke Group and one of the leading companies within the UK stone industry ",
     id: "32",
   },
   { abb: "", exp: "Yammer", desc: "The company social networking site ", id: "33" },
@@ -245,7 +245,7 @@ export default function Home() {
             </li>
           ))}
           <li className="box-content  p-4 mt-5 rounded-lg li-red  ">
-            <div className="strong">Can&apos;t find what you&apos;re looking for?</div>
+            <div className="strong">Can&#39;t find what you&#39;re looking for?</div>
 
             <div className="mt-2">
               <Link
