@@ -230,7 +230,7 @@ export default function Home() {
           alt="acrolist"
         /> */}
         <input
-          className="w-11/12 md:w-3/5 h-12 p-4 rounded-lg m-6 sb-grey"
+          className="w-11/12 md:w-3/5 h-12 p-4 rounded-lg mb-3 sb-grey"
           type="text"
           value={searchItem}
           onChange={handleInputChange}
