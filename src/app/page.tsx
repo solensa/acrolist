@@ -238,7 +238,7 @@ export default function Home() {
         />
         <ul className={(showList ? "block " : "hidden ") + "w-11/12 md:w-3/5"}>
           {filteredUsers.map((user) => (
-            <li key={user.id} className="box-content  p-4 mt-2 rounded-lg li-blue  ">
+            <li key={user.id} className="box-content  p-4 mb-3 rounded-lg li-blue  ">
               <div className="strong">{user.abb}</div>
               <div className="italics mt-2">{user.exp}</div>
               <div className="mt-2">{user.desc}</div>
