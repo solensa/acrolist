@@ -223,12 +223,12 @@ export default function Home() {
         </div>
       </nav> */}
       <main className="white-bg flex min-h-screen flex-col lor-border-red p-[30px]">
-        <img
+        {/* <img
           ref={imageRef}
           className="acrolistTitle w-7/12 md:w-4/12 m-20 mb-0"
           src={"/acrolist.svg"}
           alt="acrolist"
-        />
+        /> */}
         <input
           className="w-11/12 md:w-3/5 h-12 p-4 rounded-lg m-6 sb-grey"
           type="text"

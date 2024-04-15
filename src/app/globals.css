@@ -56,6 +56,9 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+.lor-border-red {
+  border-top: 8px red solid;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
