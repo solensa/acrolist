@@ -332,6 +332,7 @@ export default function Home() {
           Add your own Jargon{" "}
           <a
             href="https://laingorourke-my.sharepoint.com/:l:/p/rclaridge/FMZ22bOgMxZLoaXSDBItALYBQtqO_EW2vHrobPXDcQzlQw"
+            target="_blank"
             className="font-medium text-blue-600 dark:text-blue-500 hover:underline mb-10"
           >
             here
