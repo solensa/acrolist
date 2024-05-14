@@ -328,6 +328,13 @@ export default function Home() {
             Search
           </button>
         </div>
+        <div>
+          Add your own Jargon
+          <a href="https://laingorourke-my.sharepoint.com/:l:/p/rclaridge/FMZ22bOgMxZLoaXSDBItALYBQtqO_EW2vHrobPXDcQzlQw">
+            here.
+          </a>
+          (upated weekly)
+        </div>
         <ul className={(showList ? "block " : "hidden ") + "w-11/12 md:w-3/5"}>
           {filteredUsers.map((user) => (
             <li key={user.id} className="box-content  p-4 mb-3 rounded-lg li-blue  ">
