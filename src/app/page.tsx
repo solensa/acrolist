@@ -328,7 +328,7 @@ export default function Home() {
             Search
           </button>
         </div>
-        <div>
+        <div className="mb-6">
           Add your own Jargon{" "}
           <a
             href="https://laingorourke-my.sharepoint.com/:l:/p/rclaridge/FMZ22bOgMxZLoaXSDBItALYBQtqO_EW2vHrobPXDcQzlQw"
@@ -340,10 +340,10 @@ export default function Home() {
         </div>
         <ul className={(showList ? "block " : "hidden ") + "w-12/12 md:w-5/5"}>
           {filteredUsers.map((user) => (
-            <li key={user.id} className="box-content  p-4 mb-3 rounded li-blue  ">
-              <div className="strong">{user.abb}</div>
-              <div className="italics mt-2">{user.exp}</div>
-              <div className="mt-2 font-normal">{user.desc}</div>
+            <li key={user.id} className="box-content  p-4 mb-3 rounded li-blue relative">
+              <div className="strong text-[20px]">{user.abb}</div>
+              <div className="italics mt-2 text-[20px]">{user.exp}</div>
+              <div className="mt-2 font-normal text-[15px]">{user.desc}</div>
               <div className="mt-2 font-normal">
                 <a href={user.link} target="_blank">
                   <svg
@@ -352,7 +352,7 @@ export default function Home() {
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="w-6 h-6"
+                    className="w-6 h-6 position-absolute right-15 top-15"
                   >
                     <path
                       strokeLinecap="round"
