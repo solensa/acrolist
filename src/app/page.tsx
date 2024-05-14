@@ -352,7 +352,7 @@ export default function Home() {
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="w-6 h-6 position-absolute right-15 top-15"
+                    className="w-6 h-6 absolute right-15 top-15"
                   >
                     <path
                       strokeLinecap="round"

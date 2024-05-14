@@ -59,10 +59,6 @@ body {
 .lor-border-red {
   border-top: 8px red solid;
 }
-.strong {
-  font-weight: 600;
-  font-size: 18px;
-}
 .italics {
   font-style: italic;
 }
