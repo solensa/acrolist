@@ -4,163 +4,250 @@ import Link from "next/link";
 import { useState, useRef } from "react";
 const users = [
   {
+    abb: "SMR",
+    exp: "Small Modular Reactors",
+    desc: "Small modular reactors (SMRs) have a power capacity of up to 300 MW(e) per unit. Many SMRs, which can be factory-assembled and transported to a location for installation, are envisioned for markets such as industrial applications or remote areas with limited grid capacity.",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=1&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "1",
+  },
+  {
     abb: "AFR",
     exp: "Accident Frequency Rate",
-    desc: "Accident Frequency Rate (AFR), a standard way in calculating the number of RIDDOR accidents proportioned to the number of man hours worked. Calculated as follows: AFR = Number of reportable accidents x (100,000 / Total number of hours worked for all employees).     ",
-    id: "1",
+    desc: "Accident Frequency Rate (AFR), a standard way in calculating the number of RIDDOR accidents proportioned to the number of man hours worked. Calculated as follows: AFR = Number of reportable accidents x (100,000 / Total number of hours worked for all employees).",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=2&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "2",
   },
   {
     abb: "",
     exp: "Asite",
-    desc: "Laing O'Rourke's (LOR) chosen Business-to-Business (B2B) technology partner, providing LOR with the software to manage processes throughout our business: collaboration, tendering and contract management. The tool promotes more efficient interaction and better communication between companies, enabling access to current, accurate and consistent data and providing decision-makers with better visibility and control.     ",
-    id: "2",
+    desc: "Laing O'Rourke's (LOR) chosen Business-to-Business (B2B) technology partner, providing LOR with the software to manage processes throughout our business: collaboration, tendering and contract management. The tool promotes more efficient interaction and better communication between companies, enabling access to current, accurate and consistent data and providing decision-makers with better visibility and control.",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=3&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "3",
   },
   {
     abb: "BIM",
     exp: "Building Information Modelling",
-    desc: "Industry acronym that stands for 'Building Information Modelling.' The construction industry has, for years used computer aided design to show people what a project will look like. Advances in digital technology means that we can now ask computer models to layer detailed information around cost, programme, specifications, carbon and lifecycle information onto the more conventional, digital illustration of a project. Because computer compatibility is improving, the BIM model can pull information provided by Laing O'Rourke, the client, consultants and sub-contractors into one place. A project now has the ability, through BIM to make assumptions and changes, the consequences of which are played out on screen. It means that we can engineer a project from an earlier stage, providing better cost certainty before we get to site. The clearer visual representation helps us to explain a project to clients, end users or members of the public much more easily which in turn helps with quicker decision making and broader understanding.     ",
-    id: "3",
+    desc: "Industry acronym that stands for 'Building Information Modelling.' The construction industry has, for years used computer aided design to show people what a project will look like. Advances in digital technology means that we can now ask computer models to layer detailed information around cost, programme, specifications, carbon and lifecycle information onto the more conventional, digital illustration of a project. Because computer compatibility is improving, the BIM model can pull information provided by Laing O'Rourke, the client, consultants and sub-contractors into one place. A project now has the ability, through BIM to make assumptions and changes, the consequences of which are played out on screen. It means that we can engineer a project from an earlier stage, providing better cost certainty before we get to site. The clearer visual representation helps us to explain a project to clients, end users or members of the public much more easily which in turn helps with quicker decision making and broader understanding.",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=4&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "4",
   },
-  { abb: "BU", exp: "Business Unit ", desc: "", id: "4" },
-  { abb: "BUL", exp: "Business Unit Leader ", desc: "", id: "5" },
+  {
+    abb: "BU",
+    exp: "Business Unit",
+    desc: "Business Unit",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=5&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "5",
+  },
+  {
+    abb: "BUL",
+    exp: "Business Unit Leader",
+    desc: "Business Unit Leader",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=6&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "6",
+  },
   {
     abb: "",
     exp: "Career Toolkits",
-    desc: "To support career discussions, career toolkits have been created to help staff search out opportunities and navigate the next steps of their career within the business. They are a guide to help staff within the function to understand the pre-requisite skills, knowledge and behaviours of the roles within the organisation. With this in mind, it will allow them to think about the skill gaps they may have in their current role, as well as future roles on their career path. ",
-    id: "6",
+    desc: "To support career discussions, career toolkits have been created to help staff search out opportunities and navigate the next steps of their career within the business. They are a guide to help staff within the function to understand the pre-requisite skills, knowledge and behaviours of the roles within the organisation. With this in mind, it will allow them to think about the skill gaps they may have in their current role, as well as future roles on their career path.",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=7&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "7",
   },
   {
     abb: "CHT",
     exp: "Crown House Technologies",
-    desc: "Crown House Technologies; Laing O'Rourke's Mechanical and Electrical Engineering Business ",
-    id: "7",
+    desc: "Crown House Technologies; Laing O'Rourke's Mechanical and Electrical Engineering Business",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=8&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "8",
   },
-  { abb: "CIPS", exp: "Chartered Institute of Purchasing & Supply ", desc: "", id: "8" },
+  {
+    abb: "CIPS",
+    exp: "Chartered Institute of Purchasing & Supply",
+    desc: "Chartered Institute of Purchasing & Supply",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=9&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "9",
+  },
   {
     abb: "CPCS",
     exp: "Construction Plant Competence Scheme",
-    desc: "a card scheme to prove the skills of plant operators. It is based on a combination of professional competence and health and safety awareness - two essential qualities for operating plant.   ",
-    id: "9",
+    desc: "Construction Plant Competence Scheme - a card scheme to prove the skills of plant operators. It is based on a combination of professional competence and health and safety awareness - two essential qualities for operating plant.",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=10&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "10",
   },
   {
     abb: "CSCS",
     exp: "Construction Skills Certification Scheme",
-    desc: "set up to help the industry improve quality and reduce accidents. Those who have undertaken the scheme are presented with a CSCS card – recognising their qualifications and competence – allowing them to gain access and work on the site",
-    id: "10",
+    desc: "Construction Skills Certification Scheme – set up to help the industry improve quality and reduce accidents. Those who have undertaken the scheme are presented with a CSCS card – recognising their qualifications and competence – allowing them to gain access and work on the site",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=11&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "11",
   },
   {
-    abb: "DfMA /  70/60/30",
+    abb: "DfMA",
     exp: "Design for Manufacture & Assembly",
-    desc: "Laing O'Rourke acronym that stands for 'Design for Manufacture & Assembly' an approach or ethos that we believe will fundamentally challenge and change the construction industry. Our DfMA approach is founded on the understanding that we must challenge and change conventional approaches within our industry, delivering projects in a more efficient, predictable, smarter, and safer way and providing affordable outcomes. To do this we have to work with our clients at an earlier design stage, bringing our engineering expertise to provide solutions that deliver a project faster and to a quality previously not expected within the industry. Conventional approaches depend upon on-site construction. A DfMA ethos challenges that approach and suggests that we can design and manufacture major elements of a project in a more controlled environment, off-site e.g. at EIP or CHt Wolverhampton. These manufactured components are then assembled on-site.    ",
-    id: "11",
+    desc: "Laing O'Rourke acronym that stands for 'Design for Manufacture & Assembly' an approach or ethos that we believe will fundamentally challenge and change the construction industry. Our DfMA approach is founded on the understanding that we must challenge and change conventional approaches within our industry, delivering projects in a more efficient, predictable, smarter, and safer way and providing affordable outcomes. To do this we have to work with our clients at an earlier design stage, bringing our engineering expertise to provide solutions that deliver a project faster and to a quality previously not expected within the industry. Conventional approaches depend upon on-site construction. A DfMA ethos challenges that approach and suggests that we can design and manufacture major elements of a project in a more controlled environment, off-site e.g. at EIP or CHt Wolverhampton. These manufactured components are then assembled on-site.",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=12&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "12",
   },
   {
     abb: "DIFR",
     exp: "Disabling Injury Frequency Rate",
-    desc: "a standard way in calculating the number of disabling injury's proportioned to the number of hours worked. A disabling injury is classed as a lost time accident (LTA), Calculated as follows:  DIFR = Number of LTA's x (100,000 / Total number of hours worked for all employees). ",
-    id: "12",
+    desc: "Disabling Injury Frequency Rate (DIFR), a standard way in calculating the number of disabling injury's proportioned to the number of hours worked. A disabling injury is classed as a lost time accident (LTA), Calculated as follows: DIFR = Number of LTA's x (100,000 / Total number of hours worked for all employees).",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=13&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "13",
   },
   {
     abb: "EIP",
     exp: "Explore Industrial Park",
-    desc: "Laing O'Rourke's manufacturing facility based in Steetley, Nottinghamshire. EIP, together with Bison and Crown House Technology's off-site facility make up our manufacturing capability, central to our DfMA ambitions ",
-    id: "13",
+    desc: "Laing O'Rourke acronym that stands for Explore Industrial Park; Laing O'Rourke's manufacturing facility based in Steetley, Nottinghamshire. EIP, together with Bison and Crown House Technology's off-site facility make up our manufacturing capability, central to our DfMA ambitions",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=14&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "14",
   },
-  { abb: "EngEx", exp: "Engineering Excellence Group ", desc: "", id: "14" },
   {
-    abb: "",
-    exp: "Engineering Enterprise",
-    desc: "Laing O'Rourke wants to move away from being known as a 'main contractor' – a company that is brought in to deliver, largely, already determined designs to company known globally for its excellence in engineering; an engineering enterprise. An engineering enterprise is involved in projects at a much earlier stage, influencing design decisions with innovative engineering ideas. This vision means that we work with world class partners in key industry sectors. We make sure that we are sitting at the “top table” with strategically important clients whilst managing our risk and making profit. Becoming an engineering enterprise is part of our 2020 Vision.     ",
+    abb: "EngEx",
+    exp: "Engineering Excellence Group",
+    desc: "Engineering Excellence Group",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=15&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "15",
   },
   {
     abb: "",
-    exp: "Excellence Plus",
-    desc: "The Laing O'Rourke behavioural framework ",
+    exp: "Engineering Enterprise",
+    desc: "Laing O'Rourke wants to move away from being known as a 'main contractor' – a company that is brought in to deliver, largely, already determined designs to company known globally for its excellence in engineering; an engineering enterprise. An engineering enterprise is involved in projects at a much earlier stage, influencing design decisions with innovative engineering ideas. This vision means that we work with world class partners in key industry sectors. We make sure that we are sitting at the “top table” with strategically important clients whilst managing our risk and making profit. Becoming an engineering enterprise is part of our 2020 Vision.",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=16&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "16",
   },
   {
     abb: "",
-    exp: "Expanded",
-    desc: "Our Piling Demolition and structures business Unit ",
+    exp: "Excellence Plus",
+    desc: "The Laing O'Rourke behavioural framework",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=17&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "17",
   },
-  { abb: "GDP", exp: "Graduate Development Programme ", desc: "", id: "18" },
   {
     abb: "",
-    exp: "Gift Register",
-    desc: "We ensure all gifts and hospitality are within acceptable limits and never offer or accept anything that could be perceived as a bribe or an attempt to inappropriately influence a business decision.  All gifts and hospitality must be registered on the Gifts, Hospitality and Conflicts of Interest register – also known at the 'Gift Register' ",
+    exp: "Expanded",
+    desc: "Our Piling Demolition and structures business Unit",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=18&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "18",
+  },
+  {
+    abb: "GDP",
+    exp: "Graduate Development Programme",
+    desc: "Graduate Development Programme",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=19&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "19",
   },
   {
     abb: "",
-    exp: "iGATE",
-    desc: "The company intranet site. News, views, videos, People, Support; Keeping you in touch with everything you need to know to get the most out of Laing O'Rourke. ",
+    exp: "Gift Register",
+    desc: "We ensure all gifts and hospitality are within acceptable limits and never offer or accept anything that could be perceived as a bribe or an attempt to inappropriately influence a business decision. All gifts and hospitality must be registered on the Gifts, Hospitality and Conflicts of Interest register – also known at the 'Gift Register'",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=20&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "20",
+  },
+  {
+    abb: "",
+    exp: "iGATE",
+    desc: "The company intranet site. News, views, videos, People, Support; Keeping you in touch with everything you need to know to get the most out of Laing O'Rourke.",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=21&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "21",
   },
   {
     abb: "iGMS",
     exp: "Integrated Group Management System",
-    desc: "The place for all procedures, technical information, guidance, templates, checklists and learning documentation and e-learning to support projects on 'how we go to work.'  An online resource to make our information more accessible and our organisation more efficient.",
-    id: "21",
-  },
-  {
-    abb: "",
-    exp: "Infor",
-    desc: "Infor Expenses is our Group-wide expenses system for all staff to submit an expenses claim ",
+    desc: "Integrated Group Management System The place for all procedures, technical information, guidance, templates, checklists and learning documentation and e-learning to support projects on 'how we go to work.' An online resource to make our information more accessible and our organisation more efficient.",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=22&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "22",
   },
   {
     abb: "",
-    exp: "Infoworks",
-    desc: "Infoworks is title under which Laing O'Rourke publishes it stakeholder editorial content. Originally produced as a quarterly business review and update for employees, its outlook is now equally industry-focused and targets external, as well as internal, stakeholders as a brand building tool supporting work-winning. Offering insight into Laing O'Rourke's global engineering enterprise, it also offers thought-leadership pieces from in-house and wider industry experts. Contributors range from project teams, to clients, to leading journalists ",
+    exp: "Infor",
+    desc: "Infor Expenses is our Group-wide expenses system for all staff to submit an expenses claim",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=23&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "23",
   },
   {
     abb: "",
-    exp: "Insite",
-    desc: "The insite team deliver our cost planning capability, providing early cost advice to clients and helping the business develop and maintain key strategic relationships ",
+    exp: "Infoworks",
+    desc: "Infoworks is title under which Laing O'Rourke publishes it stakeholder editorial content. Originally produced as a quarterly business review and update for employees, its outlook is now equally industry-focused and targets external, as well as internal, stakeholders as a brand building tool supporting work-winning. Offering insight into Laing O'Rourke's global engineering enterprise, it also offers thought-leadership pieces from in-house and wider industry experts. Contributors range from project teams, to clients, to leading journalists",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=24&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "24",
   },
   {
     abb: "",
-    exp: "iTrent",
-    desc: "System for booking annual leave and viewing payslips ",
+    exp: "Insite",
+    desc: "The insite team deliver our cost planning capability, providing early cost advice to clients and helping the business develop and maintain key strategic relationships",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=25&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "25",
   },
   {
     abb: "",
-    exp: "Launchpad",
-    desc: "Accessed on the left hand side of the iGATE home page, this provides links to all the business systems. ",
+    exp: "iTrent",
+    desc: "System for booking annual leave and viewing payslips",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=26&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "26",
   },
-  { abb: "RICS", exp: "Royal Institute of Chartered Surveyors ", desc: "", id: "27" },
-  {
-    abb: "RIDDOR",
-    exp: "Reporting of Injuries, Diseases and Dangerous Occurrences to the Health and Safety Executive (HSE).   ",
-    desc: "",
-    id: "28",
-  },
-  { abb: "", exp: "Select", desc: "Our Plant Hire Business Unit ", id: "29" },
   {
     abb: "",
-    exp: "SuccessFactors",
-    desc: "The HR System which holds all personal and employment information about employees, it is also where you set your annual goals, performance appraisals are completed, and is used for Talent Management, Succession Planning, Learning and Development ",
+    exp: "Launchpad",
+    desc: "Accessed on the left hand side of the iGATE home page, this provides links to all the business systems.",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=27&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "27",
+  },
+  {
+    abb: "RICS",
+    exp: "Royal Institute of Chartered Surveyors",
+    desc: "Royal Institute of Chartered Surveyors",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=28&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "28",
+  },
+  {
+    abb: "RIDDOR",
+    exp: "Reporting of Injuries, Diseases and Dangerous Occurrences",
+    desc: "Reporting of Injuries, Diseases and Dangerous Occurrences to the Health and Safety Executive (HSE).",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=29&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "29",
+  },
+  {
+    abb: "",
+    exp: "Select",
+    desc: "Our Plant Hire Business Unit",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=30&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "30",
   },
   {
     abb: "",
-    exp: "TIME",
-    desc: "The TIMEsheet system where employees record work type against budget codes ",
+    exp: "SuccessFactors",
+    desc: "The HR System which holds all personal and employment information about employees, it is also where you set your annual goals, performance appraisals are completed, and is used for Talent Management, Succession Planning, Learning and Development",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=31&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "31",
   },
   {
     abb: "",
-    exp: "Vetter",
-    desc: "Vetter UK is the specialist stone contractor within the Laing O'Rourke Group and one of the leading companies within the UK stone industry ",
+    exp: "TIME",
+    desc: "The TIMEsheet system where employees record work type against budget codes",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=32&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "32",
   },
-  { abb: "", exp: "Yammer", desc: "The company social networking site ", id: "33" },
+  {
+    abb: "",
+    exp: "Vetter",
+    desc: "Vetter UK is the specialist stone contractor within the Laing O'Rourke Group and one of the leading companies within the UK stone industry",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=33&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "33",
+  },
+  {
+    abb: "",
+    exp: "Yammer",
+    desc: "The company social networking site",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=34&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "34",
+  },
+  {
+    abb: "Test2",
+    exp: "Test",
+    desc: "Test",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=35&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "35",
+  },
 ];
 
 export default function Home() {
@@ -168,7 +255,7 @@ export default function Home() {
   const [filteredUsers, setFilteredUsers] = useState(users);
   const imageRef = useRef<HTMLImageElement | null>(null);
   const [showNav, setShowNav] = useState(false);
-  const [showList, setShowList] = useState(false);
+  const [showList, setShowList] = useState(true);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const searchTerm = e.target.value;
@@ -180,11 +267,11 @@ export default function Home() {
     );
 
     // if there is no search term, hide the list
-    if (searchTerm === "") {
-      setShowList(false);
-    } else {
-      setShowList(true);
-    }
+    // if (searchTerm === "") {
+    //   setShowList(false);
+    // } else {
+    //   setShowList(true);
+    // }
     setFilteredUsers(filteredItems);
   };
   return (
@@ -263,7 +350,7 @@ export default function Home() {
               . When you find out,&nbsp;
               <Link
                 className="link"
-                href="https://laingorourke-my.sharepoint.com/:l:/p/rclaridge/FMZ22bOgMxZLoaXSDBItALYBQtqO_EW2vHrobPXDcQzlQw?e=TTbKeZ"
+                href="https://laingorourke-my.sharepoint.com/:l:/p/rclaridge/FMZ22bOgMxZLoaXSDBItALYBQtqO_EW2vHrobPXDcQzlQw"
                 target="_blank"
               >
                 please add it here
