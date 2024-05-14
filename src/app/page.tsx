@@ -324,7 +324,7 @@ export default function Home() {
             onChange={handleInputChange}
             placeholder="Search for acronyms or jargon..."
           />
-          <button className="w-3/12 md:w-24 h-12 p-2 rounded-r lor-yellow strong inline-block align-middle text-[18px]">
+          <button className="w-3/12 md:w-24 h-12 p-2 rounded-r lor-yellow font-semibold inline-block align-middle text-[18px]">
             Search
           </button>
         </div>
