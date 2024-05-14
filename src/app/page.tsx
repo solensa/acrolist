@@ -335,15 +335,15 @@ export default function Home() {
           </a>
           (upated weekly)
         </div>
-        <ul className={(showList ? "block " : "hidden ") + "w-11/12 md:w-3/5"}>
+        <ul className={(showList ? "block " : "hidden ") + "w-12/12 md:w-5/5"}>
           {filteredUsers.map((user) => (
-            <li key={user.id} className="box-content  p-4 mb-3 rounded-lg li-blue  ">
+            <li key={user.id} className="box-content  p-4 mb-3 rounded li-blue  ">
               <div className="strong">{user.abb}</div>
               <div className="italics mt-2">{user.exp}</div>
-              <div className="mt-2">{user.desc}</div>
+              <div className="mt-2 font-normal">{user.desc}</div>
             </li>
           ))}
-          <li className="box-content  p-4 mt-5 rounded-lg li-red  ">
+          <li className="box-content  p-4 mt-5 rounded li-red  ">
             <div className="strong">Can't find what you're looking for?</div>
 
             <div className="mt-2">
