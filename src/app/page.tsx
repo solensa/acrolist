@@ -316,7 +316,7 @@ export default function Home() {
           src={"/acrolist.svg"}
           alt="acrolist"
         /> */}
-        <div className="flex flex-row mb-6">
+        <div className="flex flex-row mb-4">
           <input
             className="w-9/12 md:w-5/12 h-12 p-4 rounded-l sb-grey"
             type="text"
@@ -324,11 +324,11 @@ export default function Home() {
             onChange={handleInputChange}
             placeholder="Search for acronyms or jargon..."
           />
-          <button className="w-3/12 md:w-24 h-12 p-2 rounded-r lor-yellow strong inline-block align-middle">
+          <button className="w-3/12 md:w-24 h-12 p-2 rounded-r lor-yellow strong inline-block align-middle text-[18px]">
             Search
           </button>
         </div>
-        <div className="mb-6">
+        <div className="mb-10 text-[15px]">
           Add your own Jargon{" "}
           <a
             href="https://laingorourke-my.sharepoint.com/:l:/p/rclaridge/FMZ22bOgMxZLoaXSDBItALYBQtqO_EW2vHrobPXDcQzlQw"
