@@ -17,7 +17,7 @@
 } */
 
 body {
-  font-family: "f37 ginger", "century gothic", helvetica, sans-serif !important;
+  font-family: "century gothic", "f37 ginger", helvetica, sans-serif !important;
   color: rgb(var(--foreground-rgb));
   /* background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
     rgb(var(--background-start-rgb)); */

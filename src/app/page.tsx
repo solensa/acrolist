@@ -344,6 +344,11 @@ export default function Home() {
               <div className="strong">{user.abb}</div>
               <div className="italics mt-2">{user.exp}</div>
               <div className="mt-2 font-normal">{user.desc}</div>
+              <div className="mt-2 font-normal">
+                <a href={user.link} target="_blank">
+                  Edit
+                </a>
+              </div>
             </li>
           ))}
           <li className="box-content  p-4 mt-5 rounded li-red  ">
