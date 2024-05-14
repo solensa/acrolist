@@ -316,7 +316,7 @@ export default function Home() {
           src={"/acrolist.svg"}
           alt="acrolist"
         /> */}
-        <div className="flex flex-row mb-12">
+        <div className="flex flex-row mb-6">
           <input
             className="w-9/12 md:w-5/12 h-12 p-4 rounded-l sb-grey"
             type="text"
@@ -329,10 +329,13 @@ export default function Home() {
           </button>
         </div>
         <div>
-          Add your own Jargon
-          <a href="https://laingorourke-my.sharepoint.com/:l:/p/rclaridge/FMZ22bOgMxZLoaXSDBItALYBQtqO_EW2vHrobPXDcQzlQw">
+          Add your own Jargon{" "}
+          <a
+            href="https://laingorourke-my.sharepoint.com/:l:/p/rclaridge/FMZ22bOgMxZLoaXSDBItALYBQtqO_EW2vHrobPXDcQzlQw"
+            className="font-medium text-blue-600 dark:text-blue-500 hover:underline mb-6"
+          >
             here.
-          </a>
+          </a>{" "}
           (upated weekly)
         </div>
         <ul className={(showList ? "block " : "hidden ") + "w-12/12 md:w-5/5"}>
