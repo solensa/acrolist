@@ -332,17 +332,17 @@ export default function Home() {
           Add your own Jargon{" "}
           <a
             href="https://laingorourke-my.sharepoint.com/:l:/p/rclaridge/FMZ22bOgMxZLoaXSDBItALYBQtqO_EW2vHrobPXDcQzlQw"
-            className="font-medium text-blue-600 dark:text-blue-500 hover:underline mb-6"
+            className="font-medium text-blue-600 dark:text-blue-500 hover:underline mb-10"
           >
-            here.
+            here
           </a>{" "}
-          (upated weekly)
+          (tool upated weekly).
         </div>
         <ul className={(showList ? "block " : "hidden ") + "w-12/12 md:w-5/5"}>
           {filteredUsers.map((user) => (
             <li key={user.id} className="box-content  p-4 mb-3 rounded li-blue relative">
               <div className="strong text-[20px]">{user.abb}</div>
-              <div className="italics mt-2 text-[20px]">{user.exp}</div>
+              <div className="mt-2 text-[20px]">{user.exp}</div>
               <div className="mt-2 font-normal text-[15px]">{user.desc}</div>
               <div className="mt-2 font-normal">
                 <a href={user.link} target="_blank">
@@ -352,7 +352,7 @@ export default function Home() {
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="w-6 h-6 absolute right-15 top-15"
+                    className="w-6 h-6 absolute right-[15px] top-[15px]"
                   >
                     <path
                       strokeLinecap="round"
