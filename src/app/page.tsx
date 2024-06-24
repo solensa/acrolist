@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useRef } from "react";
-const users = [
+import { useState, useRef, useEffect } from "react";
+var users = [
   {
     abb: "SMR",
     exp: "Small Modular Reactors",
@@ -326,6 +326,12 @@ export default function Home() {
   const imageRef = useRef<HTMLImageElement | null>(null);
   const [showNav, setShowNav] = useState(false);
   const [showList, setShowList] = useState(true);
+
+  // run the following code once to sort the array alphabetically by abb
+  useEffect(() => {
+    users = users.sort((a, b) => a.abb.localeCompare(b.abb));
+    setFilteredUsers(users);
+  }, []);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const searchTerm = e.target.value;
