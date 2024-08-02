@@ -447,7 +447,7 @@ var users = [
   {
     abb: "AP",
     exp: "Accountable Person",
-    desc: "AP under Building Safety Act ",
+    desc: "Accountable Person under the Building Safety Act, also refer to PAP - Principal Accountable Person ",
     link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=69&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "69",
   },
@@ -457,6 +457,27 @@ var users = [
     desc: "",
     link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=70&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "70",
+  },
+  {
+    abb: "LOIN",
+    exp: "Level Of Information Need",
+    desc: "The LOR Design Management team completed and managed an exercise to identify information requirements for each System/Element/Function typically constructed by LOR based on NBS Uniclass Tables. Minimum information requirements can then be rapidly assembled based on a scope of work and used to populate Task Information Delivery Plans (TIDPs). TIDPs can then be uploaded into Asite to generate placeholders for information and used to track progress.",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=71&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "71",
+  },
+  {
+    abb: "PAP",
+    exp: "Principal Accountable Person",
+    desc: "Principal Accountable Person under the Building Safety Act, also refer to AP - Accountable Person ",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=72&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "72",
+  },
+  {
+    abb: "",
+    exp: "",
+    desc: "",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=74&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "74",
   },
 ].sort((a, b) => a.abb.localeCompare(b.abb));
 
