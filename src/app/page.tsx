@@ -307,7 +307,7 @@ var users = [
   {
     abb: "TWC",
     exp: "Temporary Works Coordinator",
-    desc: "",
+    desc: "The Temporary Works Coordinator (TWC) is a person appointed with overall responsibility for managing temporary works on a site. The TWC is appointed by the Principal Contractor (PC). A TWC can be appointed by another contractor to manage their own temporary works but they would ultimately be responsible to the PC’s TWC. The TWC can delegate certain day-to-day activities, such as site inspection to a nominated Temporary Works Supervisor (TWS). All TWC and TWS appointments are recorded and identified in a register maintained by the DI, eg in an organogram.",
     link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=49&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "49",
   },
@@ -657,7 +657,7 @@ var users = [
   {
     abb: "UAT",
     exp: "User Acceptance Testing ",
-    desc: "",
+    desc: 'User acceptance testing (UAT) consists of a process of verifying that a solution works for the user. It is not system testing (ensuring software does not crash and meets documented requirements) but rather ensures that the solution will work for the user (i.e. tests that the user accepts the solution); software vendors often refer to this as "Beta testing". This testing should be undertaken by the intended end user, or a subject-matter expert (SME), preferably the owner or client of the solution under test, and provide a summary of the findings for confirmation to proceed after trial or review. In software development, UAT as one of the final stages of a project often occurs before a client or customer accepts the new system. Users of the system perform tests in line with what would occur in real-life scenarios.',
     link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=102&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "102",
   },
@@ -695,6 +695,13 @@ var users = [
     desc: "",
     link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=107&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "107",
+  },
+  {
+    abb: "DLP",
+    exp: "Defects Liability Period",
+    desc: "The defects liability period (now called the 'rectification period' in Joint Contracts Tribunal (JCT) contracts) is a period specified in construction contracts that begins on certification of practical completion and typically lasts six to twelve months. During this period, the client reports any defects that arise to the contract administrator who decides whether they are defects (i.e. works that are not in accordance with the contract), or whether they are maintenance issues. If the contract administrator considers they are defects, then they may issue instructions to the contractor to make them good within a reasonable time. Note, it is actually the contractor's responsibility to identify and rectify defects, not the client's, so if the client does bring defects to the contractor's notice, they should make clear that this is not a comprehensive list of all defects Practical completion is the point at which construction work is certified as practically complete under the building contract. As well as signifying the beginning of the defects liability period, this has the effect of: Releasing half of the retention (an amount retained from payments due to the contractor to ensure they complete the works). Ending the contractor's liability for liquidated damages. Allowing the client to occupy the site.",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=108&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "108",
   },
 ].sort((a, b) => a.abb.localeCompare(b.abb));
 
