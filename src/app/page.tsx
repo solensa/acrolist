@@ -703,6 +703,34 @@ var users = [
     link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=108&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "108",
   },
+  {
+    abb: "DI",
+    exp: "Designated Individual (DI)",
+    desc: "The Designated Individual (DI) is a ‘senior person’ appointed to manage the organisation’s procedures for temporary works",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=109&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "109",
+  },
+  {
+    abb: "EPD",
+    exp: "Environmental Product Declaration",
+    desc: "https://bregroup.com/services/standards/environmental/en-15804-environmental-product-declaration-epd: An EPD measures the environmental impact of a product. It is generated based on data obtained through life cycle assessment (LCA). An LCA is performed using a peer-reviewed Product Category Rules document (PCR) in line with the European standard EN 15804, ISO 14025, and other related international standards. EPDs have many uses within an organisation. They can be used as marketing material and for the improvement of product manufacture or process efficiency. They can feed into whole building assessment schemes and other comparative tools. They can also inform building information modelling (BIM) computer-aided design (CAD) software to make comparisons and assess design options that improve a building’s environmental performance. https://www.iso.org/standard/72463.html ISO 22057:2022 Sustainability in buildings and civil engineering works — Data templates for the use of environmental product declarations (EPDs) for construction products in building information modelling (BIM)",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=110&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "110",
+  },
+  {
+    abb: "TORPS",
+    exp: "Tender Out-Return-Place Order-Start on Site",
+    desc: "https://laingorourke.sharepoint.com/sites/igms-eu/projectlifecycle/Pages/Procurement_TORPS.aspx Applicable to all projects only and not applicable to fixed facilities e.g. CEMC. ​​​purpose To create the project procurement programme (TORPS) which is used to manage the package tender process and ensure timely completion of package procurement activity in alignment with the overall project construction programme. TORPS is an acronym of the key stages in the procurement of packages (T=Tender Information, O=Out to Tender, R=Return of Tenders, P=Place Order, S=Start on Site). These are the mandatory milestone events used in the procurement programme but can be supplemented where appropriate due to the scale and complexity of the Project and agreed by the relevant Procurement Leader. The TORPS Schedule is created in Excel with relevant reporting dashboards in PowerBi and will be used to manage both project and category procurement of sub-contract work packages and materials in an efficient and consistent manner.",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=111&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "111",
+  },
+  {
+    abb: "VUCA",
+    exp: "Volatility, Uncertainty, Complexity and Ambiguity",
+    desc: "https://en.wikipedia.org/wiki/VUCA#:~:text=VUCA%20is%20an%20acronym%20based,of%20general%20conditions%20and%20situations. VUCA is an acronym based on Warren Bennis's and Burt Nanus's leadership theories. It describes or reflects on the volatility, uncertainty, complexity, and ambiguity of general conditions and situations. The VUCA framework provides a lens through which organizations can interpret their challenges and opportunities. It emphasizes strategic foresight, insight, and the behaviour of entities within organizations. Furthermore, it highlights systemic and behavioural failures often associated with organisational missteps. V = Volatility: Characterizes the rapid and unpredictable nature of change. U = Uncertainty: Denotes the unpredictability of events and issues. C = Complexity: Describes the intertwined forces and issues, making cause-and-effect relationships unclear. A = Ambiguity: Points to the unclear realities and potential misunderstandings stemming from mixed messages. These elements articulate how organizations perceive their current and potential challenges. They establish the parameters for planning and policy-making. Interacting in various ways, they can either complicate decision-making or enhance the ability to strategize, plan, and progress. Essentially, VUCA lays the groundwork for effective management and leadership. ",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=112&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "112",
+  },
 ].sort((a, b) => a.abb.localeCompare(b.abb));
 
 export default function Home() {
