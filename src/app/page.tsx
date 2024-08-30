@@ -731,6 +731,34 @@ var users = [
     link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=112&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "112",
   },
+  {
+    abb: "AP",
+    exp: "Appointed Person",
+    desc: "In lifting operations, an appointed person is the person responsible for the execution and safety of a lifting operation",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=113&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "113",
+  },
+  {
+    abb: "COTS",
+    exp: "Commercial Off The Shelf supplies",
+    desc: "",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=114&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "114",
+  },
+  {
+    abb: "ASFP",
+    exp: "Association for specialist fire protection",
+    desc: "",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=115&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "115",
+  },
+  {
+    abb: "HPC",
+    exp: "Hinkley Point C",
+    desc: "",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=116&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "116",
+  },
 ].sort((a, b) => a.abb.localeCompare(b.abb));
 
 export default function Home() {
