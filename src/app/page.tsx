@@ -801,6 +801,13 @@ var users = [
     link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=122&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "122",
   },
+  {
+    abb: "RAID",
+    exp: "Risks, Assumptions, Issues, and Dependencies",
+    desc: "A RAID log is a project management tool used to document and track key project elements: Risks, Assumptions, Issues, and Dependencies. It is commonly used in the UK construction industry to ensure that potential obstacles and project dependencies are identified and managed throughout the project lifecycle. The log is typically reviewed and updated regularly to monitor the status of risks and issues, as well as validate assumptions and dependencies. RAID logs support compliance with project governance standards, such as PRINCE2 or APM.",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=123&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "123",
+  },
 ].sort((a, b) => a.abb.localeCompare(b.abb));
 
 export default function Home() {
