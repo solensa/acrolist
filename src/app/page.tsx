@@ -237,7 +237,7 @@ var users = [
   {
     abb: "Yammer",
     exp: "Yammer",
-    desc: "The company social networking site",
+    desc: "The company social networking site. Yammer is a social networking tool developed by Microsoft for internal business communication. It allows employees to communicate and collaborate across departments, share updates, ask questions, and build communities within an organization. It has been a standalone app for many years, serving as a company-wide forum to connect people. Viva Engage is part of Microsoft’s larger Viva suite, which focuses on employee experience, including learning, insights, and well-being. Viva Engage brings Yammer's capabilities into Microsoft Teams, offering the same core social networking and community-building features that Yammer does.",
     link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=34&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "34",
   },
@@ -807,6 +807,27 @@ var users = [
     desc: "A RAID log is a project management tool used to document and track key project elements: Risks, Assumptions, Issues, and Dependencies. It is commonly used in the UK construction industry to ensure that potential obstacles and project dependencies are identified and managed throughout the project lifecycle. The log is typically reviewed and updated regularly to monitor the status of risks and issues, as well as validate assumptions and dependencies. RAID logs support compliance with project governance standards, such as PRINCE2 or APM.",
     link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=123&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "123",
+  },
+  {
+    abb: "ASFP",
+    exp: "Association of Specialist Fire Protection",
+    desc: "The Association of Specialist Fire Protection (ASFP) is a UK-based trade association that focuses on the development and advocacy of best practices for passive fire protection in the construction industry. Established in 1975, the ASFP works closely with regulatory bodies, government, and industry professionals to promote fire safety standards. It provides technical guidance, training, and certification schemes for fire protection products and installations. The ASFP’s work aligns with UK legislation, including the Building Regulations and fire safety standards such as BS 9999 and BS 476.",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=124&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "124",
+  },
+  {
+    abb: "PFKG",
+    exp: "Passive Fire Knowledge Group",
+    desc: "The Passive Fire Knowledge Group (PFKG) is a UK-based industry group focused on improving understanding and compliance with passive fire protection regulations. Passive fire protection refers to fire safety measures incorporated into the fabric of a building to contain fires or slow their spread, including fire doors, fire-resistant walls, and compartmentation. PFKG provides education, resources, and best practices to ensure the correct specification, installation, and maintenance of these systems. The group collaborates with stakeholders across the construction sector to promote fire safety and regulatory compliance. More information can be found at https://www.pfkg.co.uk.",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=125&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "125",
+  },
+  {
+    abb: "ICC",
+    exp: "Industry Competence Council",
+    desc: "Industry Competence Council (ICC) The Industry Competence Council (ICC) was established as part of the UK Government’s response to the recommendations in the Hackitt Review, following the Grenfell Tower fire. It plays a crucial role in improving and overseeing competence across the construction industry, particularly for those involved in high-risk buildings. The ICC brings together various industry bodies and stakeholders to ensure that training, assessment, and professional standards are robust and consistent across all sectors. Its aim is to develop a framework that ensures individuals working on building safety are properly qualified and competent. More information can be found on the Construction Leadership Council's website: https://www.constructionleadershipcouncil.co.uk",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=126&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "126",
   },
 ].sort((a, b) => a.abb.localeCompare(b.abb));
 
