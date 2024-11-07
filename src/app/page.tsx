@@ -829,6 +829,13 @@ var users = [
     link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=126&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "126",
   },
+  {
+    abb: "CQIC",
+    exp: "Construction Quality Improvement Collaborative (CQIC)",
+    desc: "The Construction Quality Improvement Collaborative (CQIC) is a joint initiative between the public and construction sectors in Scotland, aimed at enhancing construction quality. It emerged from the Construction Recovery Plan during the pandemic and is now a key part of the Scottish Construction Accord. Despite recent improvements, there is a recognized need for a sustainable quality culture in the industry. CQIC promotes good practices to improve performance, which is essential for meeting net zero goals, building standards compliance, safety, productivity, profitability, and the industry's reputation. It leverages knowledge from practice, research, innovation, data, and digital technology, and aligns with other initiatives under the Scottish Construction Accord, such as procurement, skills, and workforce development. The initiative focuses on peer support, linking with existing groups and creating new engagement platforms. It also aims to support the development of related Scottish Government policies and guidance.",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=127&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "127",
+  },
 ].sort((a, b) => a.abb.localeCompare(b.abb));
 
 export default function Home() {
