@@ -844,20 +844,6 @@ var users = [
     id: "128",
   },
   {
-    abb: "",
-    exp: "",
-    desc: "",
-    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=129&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
-    id: "129",
-  },
-  {
-    abb: "",
-    exp: "",
-    desc: "",
-    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=130&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
-    id: "130",
-  },
-  {
     abb: "HOD",
     exp: "Central training database",
     desc: "Human Capital Managers maintain a central training database (the ‘HOD’). Managers consult this database when undertaking competence assessments and determining nominations for either in-house or external training.",
