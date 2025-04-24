@@ -850,6 +850,20 @@ var users = [
     link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=131&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
     id: "131",
   },
+  {
+    abb: "COC",
+    exp: "Certificate of Conformity",
+    desc: "A Certificate of Conformity (COC) is a document issued by an authorized party, such as the manufacturer or an independent laboratory, stating that a product meets the required standards or specifications. In construction, COCs verify that building materials, equipment, and structures meet industry standards for safety, durability, and performance. They are essential for regulatory compliance, quality control, and ensuring the integrity of construction projects",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=132&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "132",
+  },
+  {
+    abb: "DOP",
+    exp: "Declaration of Performance (DOP)",
+    desc: "A Declaration of Performance (DOP) is a document issued by manufacturers of construction products that guarantees the product conforms to the requirements of the Construction Products Regulation (CPR) and relevant CE marking. The DOP provides information about the essential characteristics of the product, allowing users to make informed decisions about its suitability for their intended use",
+    link: "https://laingorourke-my.sharepoint.com/personal/rclaridge_laingorourke_com/_layouts/15/listform.aspx?PageType=4&ListId=b3d976c6%2D33a0%2D4b16%2Da1a5%2Dd20c122d00b6&ID=133&ContentTypeID=0x0100455A33F275909B4B8460B952813148D200819CC74740FD1B419A8F6240F0CF8D9E",
+    id: "133",
+  },
 ].sort((a, b) => a.abb.localeCompare(b.abb));
 
 export default function Home() {
