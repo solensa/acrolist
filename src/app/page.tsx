@@ -982,7 +982,7 @@ export default function Home() {
             </li>
           ))}
           <li className="box-content  p-4 mt-5 rounded li-red  ">
-            <div className="strong">Can't find what you're looking for?</div>
+            <div className="strong">Can't find what you're looking for? </div>
 
             <div className="mt-2">
               <Link
